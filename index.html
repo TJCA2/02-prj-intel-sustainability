@@ -4,21 +4,20 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Intel: Sustainability Through the Ages</title>
+  <!-- Bootstrap RTL CSS for responsive grid and RTL support -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
+  <!-- Bootstrap Icons for headings -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
 </head>
 <body>
-
   <!-- Header / Hero Section -->
   <header>
     <div>
-      <!-- Ask Copilot to teach you about `.svg` 🙂 -->
-      <img src="img/intel-header-logo.svg" alt="Intel Logo" />
-      <!-- Main Heading -->
+      <img src="img/intel-header-logo.svg" alt="Intel company logo in blue" />
       <h1>
         Sustainability Through the Ages
       </h1>
-
-      <!-- Subheading / Description -->
       <p>
         Explore Intel's journey through time, discovering how our commitment
         to innovation has shaped a more sustainable future for technology 
@@ -29,12 +28,11 @@
 
   <!-- Timeline Cards Section -->
   <section>
-
     <!-- Card 1: 1968 -->
     <div>
       <h2>1968</h2>
       <h3>Intel Founded</h3>
-      <img src="img/1.jpg" alt="Placeholder Image" />
+      <img src="img/1.jpg" alt="Portrait of Intel founders Robert Noyce and Gordon Moore" />
       <!-- Description appears on hover -->
       <div class="details">
         Robert Noyce and Gordon Moore rename the newly formed company 
@@ -47,7 +45,7 @@
     <div>
       <h2>1971</h2>
       <h3>First Microprocessor</h3>
-      <img src="img/2.jpg" alt="Placeholder Image" />
+      <img src="img/2.jpg" alt="Intel 4004 microprocessor, the world's first commercial microprocessor" />
       <div class="details">
         Intel debuts the 4004, the world's first commercial microprocessor, 
         igniting the microprocessor revolution and propelling the future 
@@ -59,7 +57,7 @@
     <div>
       <h2>1978</h2>
       <h3>8086 Processor</h3>
-      <img src="img/3.jpg" alt="Placeholder Image" />
+      <img src="img/3.jpg" alt="Intel 8086 processor, establishing the x86 architecture" />
       <div class="details">
         Launch of the 8086 processor, establishing the x86 architecture 
         that drives countless PCs and servers in the modern era.
@@ -70,7 +68,7 @@
     <div>
       <h2>1985</h2>
       <h3>386 Processor</h3>
-      <img src="img/4.jpg" alt="Placeholder Image" />
+      <img src="img/4.jpg" alt="Intel 386 processor, introducing 32-bit architecture" />
       <div class="details">
         Intel introduces the 386 processor with 32-bit architecture, 
         ushering in a new era of performance and multitasking for 
@@ -82,7 +80,7 @@
     <div>
       <h2>2006</h2>
       <h3>Peak GHG Emissions</h3>
-      <img src="img/image copy 7.png" alt="Factory with emissions and green energy" />
+      <img src="img/image copy 7.png" alt="Factory with emissions and green energy initiatives" />
       <div class="details">
         This year marks Intel's highest annual greenhouse gas emissions 
         for operations. Over subsequent years, Intel invests heavily in 
@@ -95,7 +93,7 @@
     <div>
       <h2>2020</h2>
       <h3>RISE Strategy</h3>
-      <img src="img/image copy 3.png" alt="Hands holding a globe with green leaves" />
+      <img src="img/image copy 3.png" alt="Hands holding a globe with green leaves, symbolizing sustainability" />
       <div class="details">
         Intel launches its RISE (Responsible, Inclusive, Sustainable, 
         Enabling) strategy and 2030 goals, aiming to drive industry-wide 
@@ -107,7 +105,7 @@
     <div>
       <h2>2022</h2>
       <h3>Net-Zero By 2040</h3>
-      <img src="img/image copy.png" alt="Clean earth and technology for net-zero" />
+      <img src="img/image copy.png" alt="Clean earth and technology representing net-zero commitment" />
       <div class="details">
         Intel announces its commitment to achieve net-zero greenhouse 
         gas emissions (Scope 1 and 2) across its global operations 
@@ -119,7 +117,7 @@
     <div>
       <h2>2023</h2>
       <h3>Renewable Electricity</h3>
-      <img src="img/image copy 5.png" alt="Solar panels and wind turbines" />
+      <img src="img/image copy 5.png" alt="Solar panels and wind turbines, symbolizing renewable energy" />
       <div class="details">
         The company achieves 99% renewable electricity usage worldwide, 
         helping to drastically lower carbon emissions and driving progress 
@@ -140,5 +138,154 @@
     </div>
   </section>
   <p>Scroll to view timeline | Hover over cards to learn more!</p>
+
+  <!-- Responsive 3-Column Section using Bootstrap grid -->
+  <section>
+    <div class="container">
+      <div class="row">
+        <!-- Column 1 -->
+        <div class="col-12 col-md-4 mb-4">
+          <h2><i class="bi bi-bar-chart-line"></i> RISE Strategy</h2>
+          <p>
+            Under its RISE (Responsible, Inclusive, Sustainable, Enabling) strategy, 
+            Intel sets ambitious 2030 goals, including driving industry-wide 
+            progress on climate action, water stewardship, and waste reduction.
+          </p>
+          <a href="#" class="btn btn-primary w-100" aria-label="Learn more about RISE Strategy">
+            <i class="bi bi-info-circle"></i> Learn More
+          </a>
+        </div>
+        <!-- Column 2 -->
+        <div class="col-12 col-md-4 mb-4">
+          <h2><i class="bi bi-globe"></i> Commitment</h2>
+          <p>
+            In 2022, Intel pledged to achieve net-zero greenhouse gas emissions 
+            (Scope 1 and 2) by 2040. This commitment builds on decades of 
+            environmental initiatives and partnerships across the semiconductor 
+            industry.
+          </p>
+          <a href="#" class="btn btn-primary w-100" aria-label="Learn more about Commitment">
+            <i class="bi bi-info-circle"></i> Learn More
+          </a>
+        </div>
+        <!-- Column 3 -->
+        <div class="col-12 col-md-4 mb-4">
+          <h2><i class="bi bi-droplet-half"></i> Water &amp; Waste</h2>
+          <p>
+            Intel conserves billions of gallons of water annually and 
+            collaborates with local communities to restore watersheds.
+            Intel also upcycles and recycles materials to reduce waste and 
+            advance a circular economy.
+          </p>
+          <a href="#" class="btn btn-primary w-100" aria-label="Learn more about Water and Waste">
+            <i class="bi bi-info-circle"></i> Learn More
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Subscription Form -->
+  <section>
+    <div class="container my-4">
+      <h2><i class="bi bi-envelope-paper"></i> Subscribe to our Newsletter</h2>
+      <form class="row g-3" aria-label="Newsletter subscription form">
+        <div class="col-12 col-md-8">
+          <label for="newsletter-email" class="form-label visually-hidden">Email address</label>
+          <input 
+            type="email" 
+            class="form-control" 
+            id="newsletter-email" 
+            placeholder="Enter your email address" 
+            required 
+            aria-label="Email address"
+          >
+        </div>
+        <div class="col-12 col-md-4">
+          <button type="submit" class="btn btn-success w-100" aria-label="Subscribe to newsletter">
+            <i class="bi bi-send"></i> Subscribe
+          </button>
+        </div>
+      </form>
+      <p class="form-text mt-2" id="newsletter-help">
+        We care about your privacy. Unsubscribe at any time.
+      </p>
+    </div>
+  </section>
+
+  <!-- Bootstrap Accordion: Frequently Asked Questions -->
+  <section>
+    <div class="container my-4">
+      <h2><i class="bi bi-question-circle"></i> Frequently Asked Questions</h2>
+      <div class="accordion" id="faqAccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqHeadingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseOne" aria-expanded="true" aria-controls="faqCollapseOne">
+              What is Intel's RISE strategy?
+            </button>
+          </h2>
+          <div id="faqCollapseOne" class="accordion-collapse collapse show" aria-labelledby="faqHeadingOne" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              RISE stands for Responsible, Inclusive, Sustainable, Enabling. It is Intel's strategy to drive progress in sustainability and social impact.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="faqHeadingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo">
+              How can I unsubscribe from the newsletter?
+            </button>
+          </h2>
+          <div id="faqCollapseTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">
+              You can unsubscribe at any time by clicking the link at the bottom of our emails.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="bg-dark text-light py-4 mt-5">
+    <div class="container text-center">
+      <nav aria-label="Footer navigation">
+        <a href="#" class="text-light mx-2">Privacy Policy</a>
+        <span class="text-light">|</span>
+        <a href="#" class="text-light mx-2">Terms of Use</a>
+        <span class="text-light">|</span>
+        <a href="#" class="text-light mx-2">Contact</a>
+      </nav>
+      <p class="mt-3 mb-0">&copy; 2024 Intel Corporation. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Auto-detect language and set RTL if needed -->
+  <script>
+    // This script checks the page language and sets RTL layout if needed
+    function setRTLIfNeeded() {
+      // List of RTL language codes
+      const rtlLangs = ['ar', 'he', 'fa', 'ur'];
+      // Get the <html> element and its lang attribute
+      const htmlEl = document.documentElement;
+      const lang = htmlEl.lang ? htmlEl.lang.toLowerCase().slice(0,2) : '';
+      // Set dir attribute based on language
+      if (rtlLangs.includes(lang)) {
+        htmlEl.setAttribute('dir', 'rtl');
+        document.body.classList.add('rtl');
+      } else {
+        htmlEl.setAttribute('dir', 'ltr');
+        document.body.classList.remove('rtl');
+      }
+    }
+    // Run on page load
+    setRTLIfNeeded();
+    // Also run when language changes (e.g., via Google Translate)
+    const observer = new MutationObserver(setRTLIfNeeded);
+    observer.observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
+  </script>
+  <!-- Bootstrap JS (needed for accordion and other components) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
